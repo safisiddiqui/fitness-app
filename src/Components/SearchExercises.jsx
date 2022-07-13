@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { fetchData, exerciseOptions } from "../../utils/fetchData";
+import { fetchData, exerciseOptions } from "../utils/fetchData";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
-import HorizontalScrollbar from "../HorizontalScrollbar";
+import HorizontalScrollbar from "./HorizontalScrollbar";
 
 const SearchExercises = ({ bodyPart, setBodyPart, setExercises }) => {
   const [search, setSearch] = useState("");
